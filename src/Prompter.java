@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Prompter{
+public class Prompter{
 
     private Game game;
 
