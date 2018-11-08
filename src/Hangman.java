@@ -9,6 +9,8 @@ public class Hangman {
             prompter.promptForGuess();
         }
 
-        System.out.println("Game Over");
+        prompter.displayOutcome();
     }
+
+
 }

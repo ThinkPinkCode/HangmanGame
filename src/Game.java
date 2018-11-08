@@ -1,5 +1,6 @@
 class Game {
     public static final int MAX_MISSES = 7;
+
     private String answer;
     private String hits;
     private String misses;
@@ -58,5 +59,9 @@ class Game {
             progress += display;
         }
         return progress;
+    }
+
+    public String getAnswer() {
+        return answer;
     }
 }
